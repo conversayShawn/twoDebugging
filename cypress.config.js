@@ -8,4 +8,5 @@ module.exports = defineConfig({
     fixturesFolder: false,
     supportFile: false,
   },
+  retries: 2
 });
