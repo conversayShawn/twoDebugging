@@ -11,5 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^13.13.0"
+  },
+  "devDependencies": {
+    "playwright-webkit": "1.34"
   }
 }
