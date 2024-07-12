@@ -118,6 +118,9 @@ jobs:
       - name: Install Playwright dependencies for WebKit
         run: npx playwright install-deps webkit
 
+      - name: Install WebKit dependencies
+        run: sudo apt-get install -y libenchant1c2a
+
       - name: "Testing in WebKit"
         uses: cypress-io/github-action@v6
         with:
